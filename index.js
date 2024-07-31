@@ -6,7 +6,7 @@ if (process.env.NODE_ENV !== "production") {
 // Importing all Libraies that we installed using npm
 const express = require("express")
 const app = express()
-const bcrypt = require("bcrypt") // Importing bcrypt package
+// const bcrypt = require("bcrypt") // Importing bcrypt package
 const passport = require("passport")
 const initializePassport = require("./passport-config")
 const flash = require("express-flash")
